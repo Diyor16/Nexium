@@ -1,0 +1,27 @@
+@font-face{
+    font-family: 'Archivo';
+    src: url(../fonts/Archivo-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Archivo-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'BaiJamjuree';
+    src: url(../fonts/BaiJamjuree-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'BaiJamjuree';
+    src: url(../fonts/BaiJamjuree-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}

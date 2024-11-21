@@ -1,0 +1,238 @@
+@import url('./fonts.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button,
+input{
+    border: none;
+    outline: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1740px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header{
+    background: #3d4a36;
+    height: 1288px;
+}
+
+.nav{
+    padding: 80px 90px;
+}
+
+.nav__content{
+    display: flex;
+    gap: 208px;
+    align-items: center;
+
+}
+
+.nav__info-list{
+    width: 715px;
+    display: flex;
+    gap: 32px;
+}
+
+.nav__info-list-link{
+    border: 2px solid #f2ecde;
+    border-radius: 37px;
+    padding: 18px 30px;
+    font-family:  'Archivo';
+    font-weight: 500;
+    font-size: 24px;
+    color: #f2ecde;
+}
+
+.nav__tegs{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.nav__tegs-contact{
+    font-family: 'Archivo';
+    font-weight: 500;
+    font-size: 24px;
+    color: #3d4a36;
+    border: 2px solid rgba(242, 236, 222, 0.4);
+    border-radius: 37px;
+    padding: 18px 30px;
+    width: 146px;
+    height: 62px;
+    background: #f2ecde;
+}
+
+.nav__tegs-language{
+    font-family: 'Archivo';
+    font-weight: 500;
+    font-size: 24px;
+    color: #f2ecde;
+}
+
+.header__content{
+    padding-bottom: 130px;
+    position: relative;
+}
+
+.header__img{
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30%;
+    top: 0;
+}
+
+.header__descr{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.header__descr-title{
+    font-family: 'BaiJamjuree';
+    font-weight: 400;
+    font-size: 360px;
+    color: #f2ecde;
+    z-index: 1;
+}
+
+.header__descr-title::before{
+    stroke-width: 2px;
+    stroke: #f2ecde;
+}
+
+  .house{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-left: 106px;
+    padding-right: 106px;
+    padding-top: 196px;
+    padding-bottom: 116px;
+    background: #f2e5cb;
+
+  }
+
+  
+  .house-descr {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .house-title {
+    font-size: 80px;
+    font-family: 'BaiJamjuree';
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #1c211a;
+  }
+  
+  .house-text {
+    font-size: 18px;
+    line-height: 133%;
+    max-width: 434px;
+    margin: 0 auto;
+    font-family: 'Archivo';
+    color: #3d4a36;
+  }
+  
+  .house-image {
+    width: 90%;
+    max-width: 1708px;
+    margin: 0 auto;
+  }
+  
+  .house-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .second{
+    background-color: #1C211A;
+  }
+  
+  .gravida-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 1084px;
+    gap: 213px;
+  }
+  
+  .gravida-image {
+    flex: 1;
+  }
+  
+  .gravida-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .gravida-descr {
+    flex: 1;
+    max-height: 900px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+  
+  .label {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-family: 'Archivo';
+    font-weight: 500;
+    font-size: 24px;
+    color: #f2ecde;
+    margin-bottom: 490px;
+    width: 276px;
+  }
+  
+  .gravida-title {
+    font-weight: 500;
+    font-size: 50px;
+    color: #f2ecde;
+    font-family: 'BaiJamjuree';
+    line-height: 1.4;
+
+  }
+  
+  .gravida-title span {
+    color: #c8ce4a;
+  }
+  
+  .gravida-title::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 2px;
+    background-color: #f8d22a;
+    margin-bottom: 15px;
+  }  
